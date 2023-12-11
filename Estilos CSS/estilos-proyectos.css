@@ -33,16 +33,6 @@
             align-items: center;
             width: 100%;
             padding: 0 0 0 80px;
-
-            animation: 3s navbar 1s ease-in-out;
-        }
-        @keyframes navbar {
-            0% {
-                transform: translateY(-200px);
-            }
-            100% {
-                transform: translateY(0px);
-            }
         }
         .navbar_content img {
             width: 50px;
