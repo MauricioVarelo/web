@@ -256,3 +256,7 @@
         .visible {
             display: grid;
         }
+        .content-welcome ul li {
+            align-items: center;
+            text-decoration: none;
+        }
