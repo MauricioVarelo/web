@@ -96,6 +96,10 @@
                 transform: translateY(0px);
             }
         }
+        .main-content ul li {
+            text-decoration: none;
+            text-align: center;
+        }
         .side-content {
             display: grid;
             grid-template-columns: repeat(6, 1fr);
@@ -255,8 +259,4 @@
         }
         .visible {
             display: grid;
-        }
-        .content-welcome ul li {
-            align-items: center;
-            text-decoration: none;
         }
