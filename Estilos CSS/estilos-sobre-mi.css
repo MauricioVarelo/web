@@ -1,51 +1,59 @@
-@import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap');       
-        body {
-            font-family: 'Lilita One', sans-serif;
-            height: 100vh;
-            margin: 0;
-            overflow: hidden;
-        }
-        .page {
-            position: relative;
-            height: 100vh;
-            width: 100%;
-        }
-        .container {
-            position: absolute;
-            z-index: 1;
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap');
 
-            display: grid;
-            grid-template-columns: 55% 45%;
-            grid-template-rows: 20% 50% 30%;
-            grid-template-areas: "nav     aside"
-                                "section aside"
-                                "footer  aside";
+body {
+    font-family: 'Lilita One', sans-serif;
+    height: 100vh;
+    margin: 0;
+    overflow: hidden;
+}
 
-            height: 100%;
-            width: 100%;
-        }
-        .navbar {
-            grid-area: nav;
-            display: flex;
-        }
-        .navbar_content {
-            display: flex;
-            align-items: center;
-            width: 100%;
-            padding: 0 0 0 80px;
-        }
-        .navbar_content img {
-            width: 50px;
-        }
-        .navbar_content ul {
-            display: flex;
-            justify-content: space-evenly;
-            list-style: none;
-            padding: 0;
-            width: 450px;
-        }
-        .navbar_content ul li a {
-            color: black;
-            font-weight: 300;
-            text-decoration: none;
-        }
+.page {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+}
+
+.container {
+    position: absolute;
+    z-index: 1;
+
+    display: grid;
+    grid-template-columns: 55% 45%;
+    grid-template-rows: 20% 50% 30%;
+    grid-template-areas: "nav     aside"
+        "section aside"
+        "footer  aside";
+
+    height: 100%;
+    width: 100%;
+}
+
+.navbar {
+    grid-area: nav;
+    display: flex;
+}
+
+.navbar_content {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 0 0 0 80px;
+}
+
+.navbar_content img {
+    width: 50px;
+}
+
+.navbar_content ul {
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    padding: 0;
+    width: 450px;
+}
+
+.navbar_content ul li a {
+    color: black;
+    font-weight: 300;
+    text-decoration: none;
+}
