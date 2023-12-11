@@ -67,6 +67,15 @@ footer {
     padding-top: 0.625em;
 }
 
+.info-contacto ul li {
+    list-style: none;
+}
+
+.info-contacto img {
+    width: 30px;
+    margin: 5px;
+}
+
 .redes-sociales img {
     width: 30px;
     margin: 5px;
