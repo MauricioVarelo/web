@@ -97,8 +97,9 @@
             }
         }
         .main-content ul li {
-            text-decoration: none;
-            text-align: center;
+            display: flex;
+            justify-content: space-evenly;
+            list-style: none;
         }
         .side-content {
             display: grid;
