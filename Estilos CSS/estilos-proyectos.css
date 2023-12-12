@@ -2,6 +2,8 @@
 
 body {
     font-family: 'Lilita One', sans-serif;
+    height: 100vh;
+    margin: 0;
 }
 
 .page {
